@@ -2,7 +2,7 @@
 * @Author: Rosen
 * @Date:   2017-05-08 15:28:19
 * @Last Modified by:   Pearl8
-* @Last Modified time: 2018-01-04 22:32:48
+* @Last Modified time: 2018-01-04 22:35:04
 */
 var webpack             = require('webpack');
 var ExtractTextPlugin   = require('extract-text-webpack-plugin');
