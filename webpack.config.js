@@ -2,7 +2,7 @@
 * @Author: Rosen
 * @Date:   2017-05-08 15:28:19
 * @Last Modified by:   Pearl8
-* @Last Modified time: 2018-01-04 22:35:04
+* @Last Modified time: 2018-01-05 22:31:19
 */
 var webpack             = require('webpack');
 var ExtractTextPlugin   = require('extract-text-webpack-plugin');
@@ -35,10 +35,15 @@ var config = {
         'ife5'                 : ['./src/page/ife5/index.js'],
         'ife6'                 : ['./src/page/ife6/index.js'],
         'ife7'                 : ['./src/page/ife7/index.js'],
+        'ife8'                 : ['./src/page/ife8/index.js'],
+        'ife9'                 : ['./src/page/ife9/index.js'],
+        'ife10'                 : ['./src/page/ife10/index.js'],
+        'ife11'                 : ['./src/page/ife11/index.js'],
+        'ife12'                 : ['./src/page/ife12/index.js'],
     },
     output: {
         path: './dist',
-        publicPath : '../',
+        publicPath : '../',/* ../ /dist 根据环境不同来选择*/
         filename: 'js/[name].js'
     },
     externals : {
@@ -78,6 +83,12 @@ var config = {
         new HtmlWebpackPlugin(getHtmlConfig('ife5', '百度前端学院练习')),
         new HtmlWebpackPlugin(getHtmlConfig('ife6', '百度前端学院练习')),
         new HtmlWebpackPlugin(getHtmlConfig('ife7', '百度前端学院练习')),
+        new HtmlWebpackPlugin(getHtmlConfig('ife8', '百度前端学院练习')),
+        new HtmlWebpackPlugin(getHtmlConfig('ife9', '百度前端学院练习')),
+        new HtmlWebpackPlugin(getHtmlConfig('ife10', '百度前端学院练习')),
+        new HtmlWebpackPlugin(getHtmlConfig('ife11', '百度前端学院练习')),
+        new HtmlWebpackPlugin(getHtmlConfig('ife12', '百度前端学院练习')),
+
 
     ]
 };
