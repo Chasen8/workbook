@@ -1,0 +1,51 @@
+/*
+* @Author: Pearl8
+* @Date:   2018-01-04 22:09:20
+* @Last Modified by:   Pearl8
+* @Last Modified time: 2018-01-06 15:28:26
+*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#F0F0F0;  font-family: Verdana, Arial, Helvetica, sans-serif;line-height:30px;font-size:16px; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+
+img { border:none; }
+ol,ul,li {}
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;}
+
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+
+.mainleft{margin:22px 470px 22px 22px;}
+.mainright{width:450px;position: absolute;right: 20px;}
+
+table tr td,th{border:1px solid #000;}
+p{text-indent:2em;}
+.head{width:100%;height:70px;background-color:#333333;}
+.head img{float:left;}
+.head ul{float:right;}
+.head ul li{float:left;padding-right:25px;line-height:70px;}
+.head ul li a{color:#fff;text-decoration:none;}
+.head ul .teshu a{color:#555;}
+.part{background-color:#fff;margin:20px 15px;clear:both;border:1px solid #ccc;padding:30px 20px;box-shadow: 8px 8px 5px #ccc;height:auto;overflow:hidden;}
+.part h3{font-size:16px;color:#5B6064;margin-top:15px;}
+.part .author{font-size:12px;color:#5B6064;}
+.part .ranking{list-style:none;text-indent:2em;}
+.part .pic{width:150px;border:1px solid #ccc;display: block;padding:10px;margin:30px 10px 10px;float:left;}
+.part .pic span{margin-left:35px;}
+.part .pic img{width:150px;height:110px;}
+.part .rank{margin-left:40px;}
+
+table{width:100%;}
+table th,td{padding-left:5px;}
+table th{background-color:#333333;color:#fff;font-weight:bold;text-align:left;}
+table .tdd{background-color:#CCCCCC;font-weight:bold;}
+
+form{line-height:2.5em;font-size:0.8em;}
+form .tishi{color:grey;margin-left:39%;}
+form .tag{width:33%;padding-right:20px;float:left;text-align:right;}
+
+.banquan{background-color:#000;color:#fff;text-align:center;height:60px;font-size:12px;line-height:60px;clear: both;}
