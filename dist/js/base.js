@@ -78,7 +78,7 @@
 /******/ 			script.charset = 'utf-8';
 /******/ 			script.async = true;
 
-/******/ 			script.src = __webpack_require__.p + "" + chunkId + ".js/" + ({"1":"ife","2":"ife1","3":"ife10","4":"ife11","5":"ife12","6":"ife2","7":"ife3","8":"ife4","9":"ife5","10":"ife6","11":"ife7","12":"ife8","13":"ife9","14":"work"}[chunkId]||chunkId) + ".js";
+/******/ 			script.src = __webpack_require__.p + "" + chunkId + ".js/" + ({"1":"ife1","2":"ife10","3":"ife11","4":"ife12","5":"ife2","6":"ife2-1","7":"ife2-2","8":"ife2-3","9":"ife2-4","10":"ife2-5","11":"ife3","12":"ife4","13":"ife5","14":"ife6","15":"ife7","16":"ife8","17":"ife9","18":"work"}[chunkId]||chunkId) + ".js";
 /******/ 			head.appendChild(script);
 /******/ 		}
 /******/ 	};

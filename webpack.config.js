@@ -2,7 +2,7 @@
 * @Author: Rosen
 * @Date:   2017-05-08 15:28:19
 * @Last Modified by:   Pearl8
-* @Last Modified time: 2018-01-17 20:34:21
+* @Last Modified time: 2018-01-20 17:13:28
 */
 var webpack             = require('webpack');
 var ExtractTextPlugin   = require('extract-text-webpack-plugin');
@@ -27,7 +27,6 @@ var config = {
     entry: {
         'common'               : ['./src/page/common/index.js'],
         'work'                 : ['./src/page/work/index.js'],
-        'ife'                  : ['./src/page/ife/index.js'],
         'ife1'                 : ['./src/page/ife1/index.js'],
         'ife2'                 : ['./src/page/ife2/index.js'],
         'ife3'                 : ['./src/page/ife3/index.js'],
@@ -40,6 +39,12 @@ var config = {
         'ife10'                 : ['./src/page/ife10/index.js'],
         'ife11'                 : ['./src/page/ife11/index.js'],
         'ife12'                 : ['./src/page/ife12/index.js'],
+        'ife2-1'                 : ['./src/page/ife2-1/index.js'],
+        'ife2-2'                 : ['./src/page/ife2-2/index.js'],
+        'ife2-3'                 : ['./src/page/ife2-3/index.js'],
+        'ife2-4'                 : ['./src/page/ife2-4/index.js'],
+        'ife2-5'                 : ['./src/page/ife2-5/index.js'],
+
     },
     output: {
         path: './dist',
@@ -75,7 +80,6 @@ var config = {
         new ExtractTextPlugin("css/[name].css"),
         // html模板的处理
         new HtmlWebpackPlugin(getHtmlConfig('work', '练习册')),
-        new HtmlWebpackPlugin(getHtmlConfig('ife', '百度前端学院练习')),
         new HtmlWebpackPlugin(getHtmlConfig('ife1', '百度前端学院练习')),
         new HtmlWebpackPlugin(getHtmlConfig('ife2', '百度前端学院练习')),
         new HtmlWebpackPlugin(getHtmlConfig('ife3', '百度前端学院练习')),
@@ -88,6 +92,11 @@ var config = {
         new HtmlWebpackPlugin(getHtmlConfig('ife10', '百度前端学院练习')),
         new HtmlWebpackPlugin(getHtmlConfig('ife11', '百度前端学院练习')),
         new HtmlWebpackPlugin(getHtmlConfig('ife12', '百度前端学院练习')),
+        new HtmlWebpackPlugin(getHtmlConfig('ife2-1', '百度前端学院练习')),
+        new HtmlWebpackPlugin(getHtmlConfig('ife2-2', '百度前端学院练习')),
+        new HtmlWebpackPlugin(getHtmlConfig('ife2-3', '百度前端学院练习')),
+        new HtmlWebpackPlugin(getHtmlConfig('ife2-4', '百度前端学院练习')),
+        new HtmlWebpackPlugin(getHtmlConfig('ife2-5', '百度前端学院练习')),
 
 
     ]

@@ -2,7 +2,7 @@
 * @Author: Pearl8
 * @Date:   2018-01-05 13:43:42
 * @Last Modified by:   Pearl8
-* @Last Modified time: 2018-01-11 14:36:44
+* @Last Modified time: 2018-01-19 16:15:34
 */
 body{
     padding: 0;
@@ -47,7 +47,7 @@ table tr:nth-child(odd) td{
     height: 150px;
     margin-top: 20px;
     overflow: hidden;
-    background-color:#ffa550;
+    background-color:#grey;
     position: relative;
 }
 .banner ul{

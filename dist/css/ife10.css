@@ -2,7 +2,7 @@
 * @Author: Pearl8
 * @Date:   2018-01-05 13:43:22
 * @Last Modified by:   Pearl8
-* @Last Modified time: 2018-01-11 12:32:51
+* @Last Modified time: 2018-01-19 16:33:21
 */
 body{
     padding: 0;
@@ -28,7 +28,7 @@ body{
 }
 @media (min-width: 641px){
     body{
-        background-color:#f0f0f0;
+        background-color:#fff;
     }
     .wrap {
         justify-content: space-between;
