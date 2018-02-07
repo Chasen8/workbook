@@ -40,7 +40,7 @@ a {
     width: 31px;
     height: 31px;
     display: inline-block;
-    background: url(/distresource/iconpic.png)no-repeat 0 -46px;
+    background: url(../resource/iconpic.png)no-repeat 0 -46px;
     margin: 0 10px -7px 0;
 }
 .head h1 {
@@ -70,7 +70,7 @@ a {
     display: inline-block;
     width: 14px;
     height: 17px;
-    background: url(/distresource/iconpic.png)no-repeat -40px -60px;
+    background: url(../resource/iconpic.png)no-repeat -40px -60px;
     margin: 0 5px -3px 0;
 }
 .banner {
@@ -115,16 +115,16 @@ a {
     margin: 30px 0px 30px 70px;
 }
 .bannerbottom .bt .one {
-    background: url(/distresource/iconpic.png)no-repeat 0px 0px;
+    background: url(../resource/iconpic.png)no-repeat 0px 0px;
 }
 .bannerbottom .bt .two {
-    background: url(/distresource/iconpic.png)no-repeat -42px 0px;
+    background: url(../resource/iconpic.png)no-repeat -42px 0px;
 }
 .bannerbottom .bt .three {
-    background: url(/distresource/iconpic.png)no-repeat -86px 0px;
+    background: url(../resource/iconpic.png)no-repeat -86px 0px;
 }
 .bannerbottom .bt .four {
-    background: url(/distresource/iconpic.png)no-repeat -128px 0px;
+    background: url(../resource/iconpic.png)no-repeat -128px 0px;
 }
 .bannerbottom .bt div {
     width: 250px;
@@ -148,7 +148,7 @@ a {
     width: 100px;
     height: 100px;
     display: inline-block;
-    background: url(/distresource/iconpic.png)no-repeat 0px -83px;
+    background: url(../resource/iconpic.png)no-repeat 0px -83px;
     margin: 80px 10px 40px 00px;
 }
 .choose {
@@ -156,7 +156,7 @@ a {
     width: 1280px;
     margin: 0 auto;
     position: relative;
-    background-image: url(/distresource/mission7_city.jpg);
+    background-image: url(../resource/mission7_city.jpg);
 }
 .choose i {
     background: rgba(170, 52, 50, .9);
@@ -180,7 +180,7 @@ a {
     -moz-appearance: none;
     -webkit-appearance: none;
     -ms-appearance: none;
-    background: url(/distresource/pic4-2.png) no-repeat center transparent;
+    background: url(../resource/pic4-2.png) no-repeat center transparent;
     background-color: transparent;
     background-position-x: center;
     background-position-y: center;
@@ -330,7 +330,7 @@ a {
     margin-top: 40px;
 }
 .mainone .img {
-    background: url(/distresource/mission7_newTime.jpg) no-repeat;
+    background: url(../resource/mission7_newTime.jpg) no-repeat;
     width: 428px;
     height: 520px;
     float: left;

@@ -56,7 +56,7 @@ body { background:#F0F0F0;  font-family: Verdana, Arial, Helvetica, sans-serif;l
 
 .other{width:418px;float:right;height:278px;background-color:#EEEED6;margin-top:20px;padding: 20px;position:relative;font-family: "SimHei";margin-bottom:50px;}
 .other ul{margin-left:30px;color:#5a5b5b;}
-.other ul li{font-family:"\5B8B\4F53";line-height:40px;list-style-image:url(/distresource/sanjiao.png); }
+.other ul li{font-family:"\5B8B\4F53";line-height:40px;list-style-image:url(../resource/sanjiao.png); }
 .other ul li span{font-size:12px;}
 .other .date{background-color:#D55D5C;color:#fff;width:260px;height:160px;position:absolute;left: 0;bottom:0;}
 .other .date h1{float: left;height: 86px;font: 110px "\5FAE\8F6F\96C5\9ED1";margin-left: 10px;margin-top: 10px;}

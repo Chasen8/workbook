@@ -2,7 +2,7 @@
 * @Author: Rosen
 * @Date:   2017-05-08 15:28:19
 * @Last Modified by:   Pearl8
-* @Last Modified time: 2018-02-07 11:17:33
+* @Last Modified time: 2018-02-07 11:19:55
 */
 var webpack             = require('webpack');
 var ExtractTextPlugin   = require('extract-text-webpack-plugin');
@@ -48,7 +48,7 @@ var config = {
     },
     output: {
         path: './dist',
-        publicPath : '/dist',/* ../ /dist 根据环境不同来选择*/
+        publicPath : '../',/* ../ /dist 根据环境不同来选择*/
         filename: 'js/[name].js'
     },
     externals : {

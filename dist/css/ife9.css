@@ -9,7 +9,7 @@ body {
     float: right
 }
 .iconpic{
-    background: url(/distresource/iconpic9.png)no-repeat;
+    background: url(../resource/iconpic9.png)no-repeat;
     display: inline-block;
 }
 .header {
